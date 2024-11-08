@@ -1,7 +1,7 @@
 @echo off
 
-call "%~dp0..\distance-learning\b.cmd" || "exit /b"
+call "%~dp0..\distance-learning\b.cmd"
 
 git add *
-git commit -m publish
+git commit -m update
 git push
