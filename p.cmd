@@ -1,6 +1,6 @@
 @echo off
 
-call b.cmd || exit /b
+call "%~dp0..\distance-learning\b.cmd"
 
 git add *
 git commit -m publish
