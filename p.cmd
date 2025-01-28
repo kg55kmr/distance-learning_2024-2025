@@ -1,6 +1,6 @@
 @echo off
 
-call "..\distance-learning\parse.cmd" || exit /b
+call "..\kg55kmr\packages\distance-learning\parse.cmd" || exit /b
 
 git add *
 git commit -m update
